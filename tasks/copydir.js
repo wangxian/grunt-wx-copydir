@@ -13,7 +13,7 @@ module.exports = function(grunt) {
   // Please see the Grunt documentation for more information regarding task
   // creation: http://gruntjs.com/creating-tasks
 
-  grunt.registerMultiTask('copydir', 'Your task description goes here.', function() {
+  grunt.registerMultiTask('copydir', 'Copy directoriy.', function() {
 
     // Current config
     var option = this.data;
